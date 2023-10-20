@@ -29,4 +29,7 @@ Branch
 Git branch creates a new branch in the local repository where files can be added. A branch is a string of nodes that acts parallel to the main or master branch. A new branch can be made with the “git branch <branchname>” command. This new branch can be swapped to using the checkout command, and can now add and commit files to this branch. When this branch is pushed to the remote, it will be prompted to merge with the main branch. 
  
 
-
+Checkout
+Git checkout is used to swap between nodes and branches. It can be used to change which node or branch is being updated with files.  The command “git checkout <node or branch>” is used to swap the section being used. It can also be used to create new branches with “git checkout -b <branch name>”. 
+ 
+ 
