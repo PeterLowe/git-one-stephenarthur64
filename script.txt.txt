@@ -11,6 +11,11 @@ Git add sends files to the “staging area”. In this area, they are prepared t
 The user can specify any file within their folder by typing the filename after “git add”, and they can add all files in the folder by using a “.”
  
 
+Status
+Git status is used to display the current status of files in the source folder and the staging area. It will display what files are yet to be added and which files are yet to be committed. A red file is one that hasn’t been added to the staging area yet, while green files are files that exist in the staging area, but are yet to be committed. Git status should be used following any add or commit done by the user to verify the process has been completed correctly.
+ 
+
+
 
 
 
