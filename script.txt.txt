@@ -25,4 +25,8 @@ Push
 Git push is used to push up the local changes to a repository to the associated remote. The -u function must be used in order to associate the push request with the remote the changes are being pushed to. A push must always be done when git is being closed for the day, so as to protect the files being used. Pushes should also be done often so that, in the event of something like a crash, the minimum amount of work is lost.
  
 
+Branch
+Git branch creates a new branch in the local repository where files can be added. A branch is a string of nodes that acts parallel to the main or master branch. A new branch can be made with the “git branch <branchname>” command. This new branch can be swapped to using the checkout command, and can now add and commit files to this branch. When this branch is pushed to the remote, it will be prompted to merge with the main branch. 
+ 
+
 
