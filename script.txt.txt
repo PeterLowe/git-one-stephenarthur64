@@ -21,4 +21,8 @@ Remote
 Git remote creates a remote version of a repository. This version of a repository is common among multiple coders, and will be held on an online host like GitHub, or a more private host for a large corporation. While the users will have a local repository to work on, they must push their changes up to the remote, even if those changes are committed to the local repository. A remote is added with the command “git remote add origin remote_directory_url” This version of the repository is updated by multiple users separately, and as such is used for working in a group.
  
 
+Push
+Git push is used to push up the local changes to a repository to the associated remote. The -u function must be used in order to associate the push request with the remote the changes are being pushed to. A push must always be done when git is being closed for the day, so as to protect the files being used. Pushes should also be done often so that, in the event of something like a crash, the minimum amount of work is lost.
+ 
+
 
