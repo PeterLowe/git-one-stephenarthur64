@@ -6,4 +6,11 @@ It also creates a new folder as a hidden item
  
 This .git folder indicates that this is the folder where the repository was created. 
 
+Add
+Git add sends files to the “staging area”. In this area, they are prepared to be committed. Add should be used anytime a file has been updated by the user and hasn’t been updated in the repository. This includes any new files introduced, and any previous files that have been updated.
+The user can specify any file within their folder by typing the filename after “git add”, and they can add all files in the folder by using a “.”
+ 
+
+
+
 
