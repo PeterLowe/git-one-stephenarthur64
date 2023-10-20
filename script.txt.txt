@@ -1,0 +1,9 @@
+Init
+Git init is used to initialise a git repository
+ 
+It creates the repository in the folder directory GitBash was opened in
+It also creates a new folder as a hidden item
+ 
+This .git folder indicates that this is the folder where the repository was created. 
+
+
