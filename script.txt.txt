@@ -37,3 +37,10 @@ Git checkout is used to swap between nodes and branches. It can be used to chang
 Merge
 The merge function in git is used to merge 2 branches together. This function is useful for re-incorporating parallel developments to a project but must be done with caution. If there is a conflict in the merge, like two identical variable names, the merge is stopped. The merge is done by git applying the commits done to the parallel branch to the branch being merged into. If conflict occurs, --abort walks back the merge, while --continue keep it going. This function is used often to ensure a common project. It must also be done regularly for small changes, to prevent a massive merge that results in far too many conflicts than can reasonably fixed.
  
+
+Log
+The log function is used to view the history of commits in the repository. It displays every commit that has been made. This display only shows a limited number of commits, so it is navigate by using the space key, and the user can quit using the q key. Variations like --stat show the individual changes made in each commit, while --graph displays the information in a more graphed format, and -n shows the last n commits. This function is useful for tracking previous commits, and is also one of the reasons the user must always name commits, so as to make the log clearer.
+ 
+ 
+ 
+
