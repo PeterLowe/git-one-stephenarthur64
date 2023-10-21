@@ -33,3 +33,7 @@ Checkout
 Git checkout is used to swap between nodes and branches. It can be used to change which node or branch is being updated with files.  The command “git checkout <node or branch>” is used to swap the section being used. It can also be used to create new branches with “git checkout -b <branch name>”. 
  
  
+
+Merge
+The merge function in git is used to merge 2 branches together. This function is useful for re-incorporating parallel developments to a project but must be done with caution. If there is a conflict in the merge, like two identical variable names, the merge is stopped. The merge is done by git applying the commits done to the parallel branch to the branch being merged into. If conflict occurs, --abort walks back the merge, while --continue keep it going. This function is used often to ensure a common project. It must also be done regularly for small changes, to prevent a massive merge that results in far too many conflicts than can reasonably fixed.
+ 
