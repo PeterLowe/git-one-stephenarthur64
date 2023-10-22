@@ -52,4 +52,10 @@ Pull
 Git pull is used to update a local repository with a remote repository. It pulls the commits made to the remote repository and applies them to the local. Options are then used to decide if these changes will rebase the local or merge with it. This command is used when the remote is ahead of the local, which may be useful if changes have been made to it and your local repository is behind. If the local is already caught up with the remote, nothing happens
  
 
+Stash
+Git stash creates a stash of a dirty node, storing it away while the user can return to a clean version of the repository. The stash can be recovered at any time with the “apply” function. This could be useful if the user wants to temporarily move back to a clean repository without losing all of their work on the node. Stashes are also named as “stash@{n}”, n being ordered with 0 as the most recent, 1 as the next most recent, etc.
+ 
+
+
+
 
