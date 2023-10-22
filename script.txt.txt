@@ -44,3 +44,6 @@ The log function is used to view the history of commits in the repository. It di
  
  
 
+Clone
+Git clone creates a complete clone of a repository that can be independently updated and changed. It operates as its own repository. The clone can then be merged back into the main repository with a simple pull command. The clone function can be useful in the even that the user wants to make a series of changes to a project without interrupting the main, or if the user wants to work remotely on a machine apart from the codebase.
+ 
